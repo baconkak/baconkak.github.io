@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: #ffffff;
+}
+
+h1{
+    text-align: center;
+    padding: 50px;
+    background-color: #1a1a1a;
+    color: #e60000;
+}
+
+#image {
+    display: none;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button:hover {
+    background-color: #ff4d4d;
+}
+
+#about, .activities, footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 600px;
+}
