@@ -5,19 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Rock Paper Scissor Game</h1>
-    <h2>Choose one </h2>
-    <button id="mybutton" onclick="Random('rock')">rock</button>
-    <button id="mybutton" onclick="Random('paper')">paper</button>
-    <button id="mybutton" onclick="Random('scissor')">scissor</button>
-    <br>
-    <br>
-    <div id="myDiv1">You choose : </div>
-    <div id="myDiv2">Opponent choose : </div>
-    <div id="myDiv">Result : </div>
+    <h1>Welcome to Bacon's Portfolio</h1>
 
+    <div id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Natwarit Chuboonsub. You can call me Bacon :)</p>
+        <button onclick="myface()">My face</button>
+    </div>
+    <img src="scary.jpg" alt="" id="image">
+        
+
+    <br>
+    <br>
+    
+        <div class="activities">
+            <h2>Activities</h2>
+            <h3>Arduino project</h3>
+            <p>I do smart trash <button onclick="showDetails('Project 1')">More Info</button></p>
+        </div>
+
+        <div class="activities">
+            <h3>Code that Prints "Hello, World!"</h3>
+            <p>I practice C code 3year and this is result" <button onclick="helloWorld()">Code Details</button></p>
+        </div>
+    
     <script src="script.js"></script>
     
 </body>
